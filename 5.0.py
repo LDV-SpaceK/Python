@@ -1,0 +1,7 @@
+key=(0xF7,0xF2,0xF1,0xFF,0xFD)
+flag=''
+for i in key:
+    j=i^0x9A
+    flag+=chr(j)
+    
+print(flag)
